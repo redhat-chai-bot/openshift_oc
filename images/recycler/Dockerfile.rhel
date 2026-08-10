@@ -1,4 +1,4 @@
-FROM registry.ci.openshift.org/ocp/5.0:cli
+FROM quay-proxy.ci.openshift.org/openshift/ci:ocp_5.0_cli
 
 LABEL io.k8s.display-name="OpenShift Volume Recycler" \
       io.k8s.description="This is a component of OpenShift and is used to prepare persistent volumes for reuse after they are deleted." \
